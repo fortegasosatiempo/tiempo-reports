@@ -1,0 +1,85 @@
+publication,post_id,title,date,month,recipients,opens,unique_opens,open_rate,clicks,unique_clicks,click_rate,unsubscribes,web_views,impressions
+ETL Daily,post_n01,Friendship Heights 2.0,2025-11-03,2025-11,7075,4823,3345,48.57,34,27,0.81,3,9,4832
+ETL Daily,post_n02,Vuelve antes del toque,2025-11-04,2025-11,7074,4773,3307,48.05,31,26,0.79,4,13,4786
+ETL Daily,post_n03,Contando y tosiendo,2025-11-05,2025-11,7073,4807,3301,47.96,31,26,0.79,0,8,4815
+ETL Daily,post_n04,DC after dark,2025-11-06,2025-11,7070,4954,3319,48.27,27,23,0.69,1,2,4956
+ETL Daily,post_n05,Cozy plans incoming,2025-11-07,2025-11,7067,4684,3236,47.08,82,27,0.83,2,1,4685
+ETL Daily,post_n06,Flight Mode cancelado,2025-11-10,2025-11,7064,4765,3259,47.45,95,22,0.68,3,7,4772
+ETL Daily,post_n07,Veterans day and parade,2025-11-11,2025-11,7062,4673,3263,47.51,88,18,0.55,0,4,4677
+ETL Daily,post_n08,Frio y cancelaciones,2025-11-12,2025-11,7050,4836,3301,48.08,104,24,0.73,2,4,4840
+ETL Daily,post_n09,Teatro mercaditos y rumba,2025-11-13,2025-11,7017,4846,3324,48.43,121,26,0.78,1,11,4857
+ETL Daily,post_n10,DMV vibes navidenas,2025-11-14,2025-11,7007,4920,3233,47.11,111,28,0.87,3,8,4928
+ETL Daily,post_n11,Home hunt reality check,2025-11-17,2025-11,6998,4863,3360,48.97,98,24,0.71,3,20,4883
+ETL Daily,post_n12,Remote and Loving It,2025-11-18,2025-11,6993,4805,3295,48.09,65,21,0.64,1,1,4806
+ETL Daily,post_n13,Cheers and Congress,2025-11-19,2025-11,6991,4756,3291,48.06,130,26,0.79,3,10,4766
+ETL Daily,post_n14,Kids got credits,2025-11-20,2025-11,7020,4637,3227,47.16,132,27,0.84,1,6,4643
+ETL Daily,post_n15,Charter glow-up en DC,2025-11-21,2025-11,7019,4418,3046,44.53,95,16,0.53,3,3,4421
+ETL Daily,post_n16,Tropas out la Guardia dice bye,2025-11-24,2025-11,6983,4852,3279,48.00,107,33,1.01,4,6,4858
+ETL Daily,post_n17,Cuidar hijos mayor pagar renta,2025-11-25,2025-11,6983,4927,3234,47.30,81,15,0.46,0,3,4930
+ETL Daily,post_n18,Decision importante ETL,2025-11-26,2025-11,6982,4885,3306,48.38,50,32,0.97,3,11,4896
+ETL Daily,post_n19,Run Taco Run,2025-11-26,2025-11,6982,4665,3221,47.15,104,21,0.65,1,4,4669
+ETL Daily,post_n20,Thanksgiving checklist,2025-11-28,2025-11,6981,4752,3278,48.06,72,18,0.55,3,3,4755
+ETL Daily,post_d01,Build smart PGC,2025-12-01,2025-12,6977,4653,3206,46.92,72,13,0.41,1,5,4658
+ETL Daily,post_d02,Historias y cocteles,2025-12-02,2025-12,6975,4637,3149,46.09,91,26,0.83,2,2,4639
+ETL Daily,post_d03,Politica de aceras,2025-12-03,2025-12,6972,4773,3289,48.16,101,18,0.55,1,4,4777
+ETL Daily,post_d04,Economia con espiritu navideno,2025-12-04,2025-12,6970,4694,3227,47.28,82,12,0.37,4,3,4697
+ETL Daily,post_d05,Tiny homes big problemas,2025-12-05,2025-12,6965,4928,3257,47.76,80,15,0.46,2,5,4933
+ETL Daily,post_d06,Seguridad top trafico flop,2025-12-08,2025-12,6957,4996,3270,48.10,90,17,0.52,3,4,5000
+ETL Daily,post_d07,Pamela se despide del MPD,2025-12-09,2025-12,6952,4749,3270,48.10,121,29,0.89,6,11,4760
+ETL Daily,post_d08,DC busca record de besos,2025-12-10,2025-12,6950,4800,3162,46.50,82,21,0.66,3,2,4802
+ETL Daily,post_d09,Vacunas al 90%,2025-12-11,2025-12,6948,4577,3182,46.79,80,13,0.41,2,2,4579
+ETL Daily,post_d10,Santa plans,2025-12-12,2025-12,6944,4680,3237,47.65,83,18,0.56,3,4,4684
+ETL Daily,post_d11,Dulles keep o upgrade,2025-12-15,2025-12,6934,5413,3196,47.11,75,20,0.63,0,27,5440
+ETL Daily,post_d12,Policia bajo lupa,2025-12-16,2025-12,6931,4407,3084,45.49,90,27,0.88,3,3,4410
+ETL Daily,post_d13,Looks que consiguen trabajo,2025-12-17,2025-12,6929,4497,3127,46.15,71,23,0.74,2,4,4501
+ETL Daily,post_d14,Latina energy llega a Maryland,2025-12-18,2025-12,6926,4483,3083,45.50,64,15,0.49,1,5,4488
+ETL Daily,post_d15,Data centers al limite,2025-12-19,2025-12,6923,4529,3144,46.42,75,24,0.76,3,2,4531
+ETL Daily,post_d16,DC se prepara para 2026,2025-12-22,2025-12,6916,4525,3124,46.17,61,12,0.38,1,6,4531
+ETL Daily,post_d17,Fiestas en DC lo que debes saber,2025-12-23,2025-12,6917,4329,2972,43.94,65,16,0.54,1,10,4339
+ETL Daily,post_d18,DC listo para Navidad,2025-12-24,2025-12,6917,4699,3215,47.55,54,13,0.40,5,5,4704
+ETL Daily,post_d19,El boom de las megacasas en DC,2025-12-26,2025-12,6916,4551,3165,46.81,71,27,0.85,2,3,4554
+ETL Daily,post_d20,Secretos de la ciudad,2025-12-29,2025-12,6913,4380,3103,45.93,58,12,0.39,2,4,4384
+ETL Daily,post_d21,Bye bye bolsas de plastico,2025-12-30,2025-12,6912,4525,3164,46.87,72,24,0.76,6,4,4529
+ETL Daily,post_d22,Prices chill buyers thrill,2025-12-31,2025-12,6905,4595,3180,47.14,69,16,0.50,2,9,4604
+EP Daily,post_n101,Puede que siga SNAP pero con limitaciones,2025-11-03,2025-11,6974,4348,2834,42.68,61,43,1.52,5,7,4355
+EP Daily,post_n102,Descuentos en tu factura de luz,2025-11-04,2025-11,6979,4527,2934,44.15,86,63,2.15,3,9,4536
+EP Daily,post_n103,Everett tiene nuevo alcalde,2025-11-05,2025-11,6977,4248,2743,41.27,74,45,1.64,3,3,4251
+EP Daily,post_n104,Logan Airport podria reducir vuelos,2025-11-06,2025-11,6980,4250,2748,41.33,56,43,1.56,1,4,4254
+EP Daily,post_n105,Se acerca la primera nevada,2025-11-07,2025-11,6798,4629,2968,44.62,85,58,1.95,1,13,4642
+EP Daily,post_n106,Exigen frenar aumento de seguros,2025-11-10,2025-11,6795,4383,2875,43.17,48,31,1.08,1,5,4388
+EP Daily,post_n107,SNAP seguira activo en MA,2025-11-11,2025-11,6795,4417,2861,42.95,72,42,1.47,4,6,4423
+EP Daily,post_n108,Por que se vieron auroras boreales,2025-11-12,2025-11,6792,4411,2864,43.01,65,43,1.50,2,7,4418
+EP Daily,post_n109,Estudiante de BU pidio a ICE detencion,2025-11-13,2025-11,6788,4574,2915,43.80,133,104,3.57,2,17,4591
+EP Daily,post_n110,Nieve y lluvia helada este fin de semana,2025-11-14,2025-11,6782,4383,2856,42.92,82,41,1.44,1,6,4389
+EP Daily,post_n111,Se normalizan los vuelos antes de Thanksgiving,2025-11-17,2025-11,6790,3608,2376,35.66,41,24,1.01,4,1,3609
+EP Daily,post_n112,Se evalua propina obligatoria en MA,2025-11-18,2025-11,6792,4102,2649,39.73,86,62,2.34,2,4,4106
+EP Daily,post_n113,Boston gana la primera estrella Michelin,2025-11-19,2025-11,6994,4287,2727,40.87,103,70,2.57,4,9,4296
+EP Daily,post_n114,Como responde MA al cierre de Educacion,2025-11-20,2025-11,7011,4329,2782,41.59,40,32,1.15,3,2,4331
+EP Daily,post_n115,Thanksgiving mejores y peores horas,2025-11-21,2025-11,6821,4217,2723,40.68,55,38,1.40,1,5,4222
+EP Daily,post_n116,Muchas familias en MA ya pasaban hambre,2025-11-24,2025-11,6832,3894,2581,38.48,48,29,1.12,2,3,3897
+EP Daily,post_n117,No se puede comprar alcohol en Thanksgiving,2025-11-25,2025-11,6832,3315,2321,34.63,59,37,1.59,1,1,3316
+EP Daily,post_n118,Que estara cerrado manana por Thanksgiving,2025-11-26,2025-11,6831,3979,2622,39.14,98,70,2.67,2,3,3982
+EP Daily,post_n119,Decision importante EP,2025-11-26,2025-11,6832,4108,2689,40.13,48,40,1.49,1,10,4118
+EP Daily,post_n120,Antes las tiendas no podian abrir los domingos,2025-11-28,2025-11,6829,3850,2564,38.39,34,25,0.98,4,0,3850
+EP Daily,post_d101,10 pulgadas de nieve podrian caer en MA,2025-12-01,2025-12,6845,4022,2608,38.88,96,73,2.80,1,6,4028
+EP Daily,post_d102,Por que no ha empezado a nevar en Boston,2025-12-02,2025-12,6853,3938,2573,38.32,41,34,1.32,2,2,3940
+EP Daily,post_d103,Este es el estado actual de los latinos en MA,2025-12-03,2025-12,6857,3970,2614,38.92,41,29,1.11,3,5,3975
+EP Daily,post_d104,Una nueva Charlie Card podria llegar pronto,2025-12-04,2025-12,6860,4153,2694,40.08,63,50,1.86,2,2,4155
+EP Daily,post_d105,East Boston dara inicio a la temporada navidena,2025-12-05,2025-12,6869,4178,2695,40.05,50,26,0.96,3,0,4178
+EP Daily,post_d106,Inmigrantes quedan fuera de ceremonia,2025-12-08,2025-12,6885,4286,2752,40.84,115,89,3.23,4,9,4295
+EP Daily,post_d107,Donde pedir comida navidena latina en Boston,2025-12-09,2025-12,6892,4127,2697,39.97,82,56,2.08,2,6,4133
+EP Daily,post_d108,Desmantelan organizacion que ofrecia visas falsas,2025-12-10,2025-12,6898,4093,2648,39.21,71,45,1.70,1,0,4093
+EP Daily,post_d109,Consumir cannabis en cafes ahora permitido,2025-12-11,2025-12,6903,4027,2621,38.81,48,34,1.30,3,5,4032
+EP Daily,post_d110,TikTok provoca aumento de esquiadores perdidos,2025-12-12,2025-12,6906,4217,2708,40.06,75,48,1.77,3,1,4218
+EP Daily,post_d111,Cuanta nieve cayo ayer en Boston,2025-12-15,2025-12,6908,4015,2714,40.12,23,15,0.55,3,3,4018
+EP Daily,post_d112,ICE intensifica operativos en tribunales,2025-12-16,2025-12,6907,4294,2770,41.12,51,41,1.48,3,6,4300
+EP Daily,post_d113,Mundial lanza boletos de 60 tras criticas,2025-12-17,2025-12,6905,4270,2815,41.64,83,67,2.38,2,10,4280
+EP Daily,post_d114,Por que aun no han capturado al del tiroteo,2025-12-18,2025-12,6904,4183,2735,40.46,33,24,0.88,3,3,4186
+EP Daily,post_d115,Alerta de ataques de coyotes,2025-12-19,2025-12,6903,4509,2853,42.22,54,34,1.19,4,1,4510
+EP Daily,post_d116,Puede que haya un white christmas,2025-12-22,2025-12,6906,4485,2839,42.03,46,31,1.09,3,3,4488
+EP Daily,post_d117,Ultimo dia para inscribirse en seguros,2025-12-23,2025-12,6911,4238,2729,40.38,38,30,1.10,1,4,4242
+EP Daily,post_d118,Despues de Navidad Evita el trafico,2025-12-24,2025-12,6914,3962,2616,38.67,14,9,0.34,1,0,3962
+EP Daily,post_d119,Viernes frio con nieve prevista,2025-12-26,2025-12,6915,3993,2605,38.51,27,23,0.88,2,8,4001
+EP Daily,post_d120,El MBTA sera gratuito en la vispera de Ano Nuevo,2025-12-29,2025-12,6924,3949,2610,38.51,42,28,1.07,3,1,3950
+EP Daily,post_d121,Como viven cuatro inmigrantes tras su detencion,2025-12-30,2025-12,6925,3794,2575,37.98,75,56,2.17,1,0,3794
+EP Daily,post_d122,Que abre y que cierra en Ano Nuevo,2025-12-31,2025-12,6923,3604,2488,36.70,52,39,1.57,6,0,3604

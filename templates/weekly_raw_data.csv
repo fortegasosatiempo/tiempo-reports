@@ -1,0 +1,11 @@
+publication,post_id,title,date,recipients,opens,unique_opens,open_rate,clicks,unique_clicks,click_rate,unsubscribes,web_views,impressions
+ETL Daily,post_001,SNAP back,2026-01-07,6736,4416,3156,46.85,71,23,0.73,2,3,4419
+ETL Daily,post_002,Empleos down planes up,2026-01-05,6742,4568,3153,46.77,61,12,0.38,4,3,4571
+ETL Daily,post_003,El crimen baja la gripe sube,2026-01-06,6722,4376,3131,46.58,21,17,0.54,1,1,4377
+ETL Daily,post_004,Casas que cuestan talento que sale,2026-01-08,6731,4346,3121,46.37,79,13,0.42,2,2,4348
+ETL Daily,post_005,DC responde a ICE tras tiroteo fatal,2026-01-09,6728,4332,3081,45.79,98,29,0.94,0,4,4336
+EP Daily,post_101,Cuales son las prioridades de Boston Everett y Chelsea,2026-01-06,6761,4261,2760,40.82,22,16,0.58,1,2,4263
+EP Daily,post_102,Confiscan el telefono a un observador,2026-01-09,6757,3867,2733,40.45,47,39,1.43,1,11,3878
+EP Daily,post_103,Venezolanos celebran politicos de MA condenan,2026-01-05,6735,3993,2653,39.39,48,42,1.58,5,2,3995
+EP Daily,post_104,Se impulsa proyecto para reducir millas,2026-01-07,6759,3924,2693,39.84,28,21,0.78,2,2,3926
+EP Daily,post_105,Boston protesta tras muerte por ICE en Minneapolis,2026-01-08,6758,3835,2659,39.35,42,30,1.13,2,11,3846
