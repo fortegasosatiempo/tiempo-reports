@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            color: #333;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        .header {
+            background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px 12px 0 0;
+            text-align: center;
+        }
+        .header h1 { font-size: 24px; margin-bottom: 8px; }
+        .header .subtitle { opacity: 0.9; font-size: 16px; }
+        .content { background: white; padding: 30px; border-radius: 0 0 12px 12px; }
+
+        .publication {
+            margin-bottom: 30px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .pub-header {
+            padding: 15px 20px;
+            color: white;
+            font-weight: 600;
+            font-size: 18px;
+        }
+        .pub-content { padding: 20px; }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .comparison-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #666;
+        }
+        .comparison-table td { font-size: 14px; }
+        .comparison-table tr:last-child td { border-bottom: none; }
+        .comparison-table .metric-name { font-weight: 500; }
+        .comparison-table .current { font-weight: 600; color: #333; }
+        .comparison-table .previous { color: #666; }
+
+        .change-positive { color: #34a853; font-weight: 600; }
+        .change-negative { color: #ea4335; font-weight: 600; }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            margin: 25px 0 15px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+
+        .top-posts { margin-top: 15px; }
+        .post-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+        .post-rank {
+            font-weight: 700;
+            color: #1a73e8;
+            margin-right: 12px;
+            font-size: 16px;
+        }
+        .post-title { font-weight: 500; flex: 1; }
+        .post-date { color: #666; font-size: 12px; margin-left: 10px; }
+        .post-stats {
+            display: flex;
+            gap: 20px;
+            font-size: 13px;
+            color: #666;
+        }
+        .stat-highlight { color: #1a73e8; font-weight: 600; }
+
+        .top-links { margin-top: 15px; }
+        .link-item {
+            padding: 10px 15px;
+            background: #fff3e0;
+            border-radius: 6px;
+            margin-bottom: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .link-desc { flex: 1; font-size: 13px; }
+        .link-clicks { font-weight: 600; color: #e65100; }
+
+        .totals-section {
+            background: #e3f2fd;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .totals-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .total-item { text-align: center; }
+        .total-value { font-size: 24px; font-weight: 700; color: #1a73e8; }
+        .total-label { font-size: 11px; color: #666; margin-top: 4px; text-transform: uppercase; }
+        .total-change { font-size: 12px; margin-top: 2px; }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TIEMPO COMPANY</h1>
+            <div class="subtitle">Weekly Newsletter Report</div>
+            <div class="subtitle" style="margin-top: 5px; font-size: 14px;">
+                December 2025 vs November 2025
+            </div>
+        </div>
+        <div class="content">
+
+            <div class="publication">
+                <div class="pub-header" style="background: #1a73e8;">El Tiempo Latino Daily</div>
+                <div class="pub-content">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>This Week</th>
+                                <th>Last Week</th>
+                                <th>Change</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="metric-name">Posts Sent</td>
+                                <td class="current">25</td>
+                                <td class="previous">21</td>
+                                <td class="change-positive">+19.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Sent</td>
+                                <td class="current">6,942</td>
+                                <td class="previous">7,026</td>
+                                <td class="change-negative">-1.2%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Impressions</td>
+                                <td class="current">114,993</td>
+                                <td class="previous">100,447</td>
+                                <td class="change-positive">+14.5%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Unique Opens</td>
+                                <td class="current">3,149</td>
+                                <td class="previous">3,268</td>
+                                <td class="change-negative">-3.6%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Open Rate</td>
+                                <td class="current">45.36%</td>
+                                <td class="previous">46.51%</td>
+                                <td class="change-negative">-1.15pp</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Total Clicks</td>
+                                <td class="current">1,797</td>
+                                <td class="previous">1,663</td>
+                                <td class="change-positive">+8.1%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Click Rate</td>
+                                <td class="current">0.25%</td>
+                                <td class="previous">0.33%</td>
+                                <td class="change-negative">-0.08pp</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Unsubscribes</td>
+                                <td class="current">65</td>
+                                <td class="previous">45</td>
+                                <td class="change-negative">+44.4%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="section-title">Top Performing Posts (by Open Rate)</div>
+                    <div class="top-posts">
+
+                        <div class="post-item">
+                            <span class="post-rank">1</span>
+                            <span class="post-title">🚧Política de aceras</span>
+                            <span class="post-date">Dec 03</span>
+                            <div class="post-stats">
+                                <span><span class="stat-highlight">47.2%</span> open</span>
+                                <span>4,777 imp</span>
+                                <span>101 clicks</span>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <span class="post-rank">2</span>
+                            <span class="post-title">👮‍♀️ Pamela se despide del MPD</span>
+                            <span class="post-date">Dec 09</span>
+                            <div class="post-stats">
+                                <span><span class="stat-highlight">47.0%</span> open</span>
+                                <span>4,760 imp</span>
+                                <span>121 clicks</span>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <span class="post-rank">3</span>
+                            <span class="post-title">🚗 Seguridad top, tráfico flop</span>
+                            <span class="post-date">Dec 08</span>
+                            <div class="post-stats">
+                                <span><span class="stat-highlight">47.0%</span> open</span>
+                                <span>5,000 imp</span>
+                                <span>90 clicks</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="publication">
+                <div class="pub-header" style="background: #ea4335;">El Planeta Daily</div>
+                <div class="pub-content">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>This Week</th>
+                                <th>Last Week</th>
+                                <th>Change</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="metric-name">Posts Sent</td>
+                                <td class="current">25</td>
+                                <td class="previous">20</td>
+                                <td class="change-positive">+25.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Sent</td>
+                                <td class="current">6,892</td>
+                                <td class="previous">6,861</td>
+                                <td class="change-positive">+0.5%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Impressions</td>
+                                <td class="current">100,805</td>
+                                <td class="previous">83,974</td>
+                                <td class="change-positive">+20.0%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Unique Opens</td>
+                                <td class="current">2,645</td>
+                                <td class="previous">2,731</td>
+                                <td class="change-negative">-3.1%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Open Rate</td>
+                                <td class="current">38.38%</td>
+                                <td class="previous">39.81%</td>
+                                <td class="change-negative">-1.43pp</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Total Clicks</td>
+                                <td class="current">1,275</td>
+                                <td class="previous">1,374</td>
+                                <td class="change-negative">-7.2%</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Avg Click Rate</td>
+                                <td class="current">0.53%</td>
+                                <td class="previous">0.69%</td>
+                                <td class="change-negative">-0.15pp</td>
+                            </tr>
+                            <tr>
+                                <td class="metric-name">Unsubscribes</td>
+                                <td class="current">64</td>
+                                <td class="previous">47</td>
+                                <td class="change-negative">+36.2%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="section-title">Top Performing Posts (by Open Rate)</div>
+                    <div class="top-posts">
+
+                        <div class="post-item">
+                            <span class="post-rank">1</span>
+                            <span class="post-title">Alerta de ataques de coyotes</span>
+                            <span class="post-date">Dec 19</span>
+                            <div class="post-stats">
+                                <span><span class="stat-highlight">41.3%</span> open</span>
+                                <span>4,513 imp</span>
+                                <span>54 clicks</span>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <span class="post-rank">2</span>
+                            <span class="post-title">Puede que haya un white christmas </span>
+                            <span class="post-date">Dec 22</span>
+                            <div class="post-stats">
+                                <span><span class="stat-highlight">41.1%</span> open</span>
+                                <span>4,489 imp</span>
+                                <span>46 clicks</span>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <span class="post-rank">3</span>
+                            <span class="post-title">Mundial lanza boletos de $60 tras críticas</span>
+                            <span class="post-date">Dec 17</span>
+                            <div class="post-stats">
+                                <span><span class="stat-highlight">40.8%</span> open</span>
+                                <span>4,280 imp</span>
+                                <span>83 clicks</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="totals-section">
+                <div class="section-title" style="margin-top: 0; border-bottom: none;">Combined Totals</div>
+                <div class="totals-grid">
+                    <div class="total-item">
+                        <div class="total-value">50</div>
+                        <div class="total-label">Total Posts</div>
+                        <div class="total-change change-positive">+22.0%</div>
+                    </div>
+                    <div class="total-item">
+                        <div class="total-value">215,798</div>
+                        <div class="total-label">Total Impressions</div>
+                        <div class="total-change change-positive">+17.0%</div>
+                    </div>
+                    <div class="total-item">
+                        <div class="total-value">41.9%</div>
+                        <div class="total-label">Avg Open Rate</div>
+                        <div class="total-change change-negative">-1.29pp</div>
+                    </div>
+                    <div class="total-item">
+                        <div class="total-value">3,072</div>
+                        <div class="total-label">Total Clicks</div>
+                        <div class="total-change change-positive">+1.2%</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            Generated on January 16, 2026 at 11:05 PM
+        </div>
+    </div>
+</body>
+</html>
